@@ -16,3 +16,30 @@ p.center {
   text-align: center;
   color: cyan;
 }
+
+span.a {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid green;
+  background-color: green;
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid violet;
+  background-color: violet;
+}
