@@ -43,3 +43,24 @@ span.c {
   border: 1px solid violet;
   background-color: violet;
 }
+
+.div-1 {
+  background-color: blue; 
+  display: inline;
+  height: 250px;
+  width: 250px;
+}
+   
+.div-2 {
+  background-color: red; 
+  display: inline;
+  height: 250px;
+  width: 250px;
+}
+   
+.div-3 {
+  background-color: yellow; 
+  display: inline;
+  height: 250px;
+  width: 250px;
+}
