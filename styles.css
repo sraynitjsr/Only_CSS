@@ -92,6 +92,15 @@ span.c {
 }
 
 @keyframes example {
-  from {background-color: cyan;}
-  to {background-color: violet;}
+  from {
+    background-color: cyan;
+  }
+
+  to {
+    background-color: violet;
+  }
+}
+
+h1 {
+  text-shadow: 1.5px 1.5px;
 }
