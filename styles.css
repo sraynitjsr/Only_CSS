@@ -82,3 +82,16 @@ span.c {
   padding: 20px;
   font-size: 30px;
 }
+
+.my-animation {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  from {background-color: cyan;}
+  to {background-color: violet;}
+}
