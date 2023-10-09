@@ -3,93 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Responsive Page</title>
-    <style>
-        body, h1, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-
-        header ul {
-            list-style: none;
-            text-align: center;
-        }
-
-        header li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        .nature {
-            background-image: url('nature.jpg');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            text-align: center;
-            padding: 100px 0;
-        }
-
-        .content {
-            padding: 40px;
-        }
-
-        @media (max-width: 768px) {
-            header li {
-                margin: 0 10px;
-            }
-            .nature {
-                padding: 60px 0;
-            }
-            .content {
-                padding: 20px;
-            }
-        }
-    </style>
+    <title>CSS Selector Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
-
-    <section class="nature">
-        <h1>Welcome to our Awesome Website</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button>Learn More</button>
-    </section>
-
-    <section class="content">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-    </section>
-
-    <section class="content">
-        <h2>Our Services</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-    </section>
-
-    <section class="content">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Awesome Website</p>
-    </footer>
+    <h1 id="header">Header with ID</h1>
+    <p class="btn">This is a paragraph with a class</p>
+    <p>This is a normal paragraph</p>
+    <a href="#" target="_blank">Link with target attribute</a>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    <h2>Subheading</h2>
+    <p>This is another paragraph</p>
 </body>
 </html>
