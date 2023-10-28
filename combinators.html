@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Combinator Example</title>
+    <style>
+        /* Descendant Combinator (Select all <p> elements inside a <div>) */
+        div p {
+            color: blue;
+        }
+
+        /* Child Combinator (Select only direct children <p> elements of a <ul>) */
+        ul > li {
+            background-color: yellow;
+        }
+
+        /* Adjacent Sibling Combinator (Select <p> immediately following an <h2>) */
+        h2 + p {
+            font-weight: bold;
+        }
+
+        /* General Sibling Combinator (Select all <p> elements following an <h3>) */
+        h3 ~ p {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph inside a div.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+    <h2>Heading 2</h2>
+    <p>This is a paragraph immediately following an h2.</p>
+    <h3>Heading 3</h3>
+    <p>This is the first paragraph following an h3.</p>
+    <p>This is the second paragraph following an h3.</p>
+    <p>This is the third paragraph following an h3.</p>
+</body>
+</html>
