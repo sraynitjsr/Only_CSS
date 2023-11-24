@@ -1,0 +1,14 @@
+.card {
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 200px;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
