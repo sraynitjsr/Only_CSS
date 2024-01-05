@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333333;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:nth-child(1) {
+    background-color: #e44d26; /* Red */
+}
+
+button:nth-child(2) {
+    background-color: #00a2e8; /* Blue */
+}
+
+button:nth-child(3) {
+    background-color: #ffc720; /* Yellow */
+}
+
+button:nth-child(4) {
+    background-color: #8dc63f; /* Green */
+}
+
+button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+}
+
+#output {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+    text-align: left;
+}
+
+#output h2 {
+    color: #007bff;
+}
+
+#output p {
+    color: #495057;
+    margin: 5px 0;
+}
