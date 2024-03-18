@@ -21,6 +21,17 @@
     background-color: #cccccc;
     border: 1px solid #333333;
     box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .paragraph {
+    line-height: 1.4;
   }
 </style>
 </head>
@@ -28,7 +39,11 @@
 
 <div class="container">
   <div class="content">
-    This is some content inside a container with intrinsic size.
+    <h2 class="title">Intrinsic Size Example</h2>
+    <p class="paragraph">
+      This is some content inside a container with intrinsic size. It adjusts its dimensions to fit within the container's width and height limits. Additional content can be added here, and it will adjust accordingly.
+    </p>
+    <button onclick="alert('Hello!')">Click Me</button>
   </div>
 </div>
 
