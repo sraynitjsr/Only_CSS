@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intrinsic Size Example</title>
+<style>
+  .container {
+    width: 300px; /* Intrinsic width */
+    height: 200px; /* Intrinsic height */
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    max-width: 100%; /* Content won't exceed container width */
+    max-height: 100%; /* Content won't exceed container height */
+    padding: 20px;
+    background-color: #cccccc;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="content">
+    This is some content inside a container with intrinsic size.
+  </div>
+</div>
+
+</body>
+</html>
